@@ -25,4 +25,4 @@ def on_button_clicked(b):                                                   #def
                 print("The entered password or e-mail is wrong")            #tell him that the entered e-mail or password is wrong
                 c.button_style='danger'                                     #turn the button to red colour
 
-c.on_click(on_button_clicked)                   #call the function by using the attribue of c 'on_click' and passinf the name of the function
+c.on_click(on_button_clicked)                   #call the function by using the attribue of c 'on_click' and passing the name of the function
